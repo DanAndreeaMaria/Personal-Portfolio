@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon_io/android-chrome-192x192.png">
+    <!--font awesome - the icon from responsive topnav bar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Scroll reveal library-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+        <!--Navbar-->
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#sec-2">Education</a>
+          <a href="#sec-3">Skills</a>
+          <a href="#sec-4">Certificates</a>
+          <a href="#sec-5">Projects</a>
+          <a href="#sec-6">Contact</a>
+      </div>
+      <span style="font-size: 50px; cursor: pointer; margin-left: 15px; position: fixed; top: 0; z-index: 1;" onclick="openNav()">&#9776;</span>
+
+      <section id="sec-1">
+        <!--photo + a few words about me-->
+        <header>
+          <h1 class="intro">Hello, my name is Andreea!</h1>
+          <img class="portrait" src="images/portrait.png" alt="portret">
+          <h4 class="description">I studied Applied Engineering Sciences at Polytechnic University of Timișoara - Hunedoara Faculty of Engineering 
+              and I also completed the Master's Degree in Electrical Engineering. I started my working experience in 2018 as a 
+              Computer and Network equipment technician where I learned a lot about computer hardware, then, in 2020 I applied at Joom 
+              where I worked as a Customer agent and here I learned how to support customers via chat and help them with their orders.
+              In 2022 I started my Frontend Web Development journey from where I learned a lot of new things and, most important, 
+              what it takes to build a web page from scratch. From now on, I want to continue on this path and become a Frontend Web Developer.
+            </h4>
+        </header>
+    </section>
+
+    <section id="sec-2">
+        <!--education - timeline-->
+        <h1 class="sec-2-title">Education and experience</h1>
+
+        <div class="timeline">
+
+            <div class="container left">
+              <div class="content">
+                <i class="fa-brands fa-html5"></i>
+                <h3 class="timeline-info">2022 - present</h3>
+                <h2 class="timeline-info">Learning Web Development</h2>
+                <h5 class="timeline-info">Creating Web Pages</h5>
+                <h4 class="timeline-info">Building a portfolio</h4>
+              </div>
+            </div>
+
+            <div class="container right">
+              <div class="content">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3 class="timeline-info">2020 - 2021</h3>
+                <h2 class="timeline-info">Customer Agent</h2>
+                <h5 class="timeline-info">Joom</h5>
+                <h4 class="timeline-info">Freelancing on customer service for Joom platform - a marketplace that sells products in Europe.</h4>
+              </div>
+            </div>
+
+            <div class="container left">
+              <div class="content">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3 class="timeline-info">2018 - 2020</h3>
+                <h2 class="timeline-info">Computer and Network equipment technician</h2>
+                <h5 class="timeline-info">Ultra Special Computer</h5>
+                <h4 class="timeline-info">Software and Hardware management</h4>
+              </div>
+            </div>
+
+            <div class="container right">
+              <div class="content">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3 class="timeline-info">2018 - 2020</h3>
+                <h2 class="timeline-info">Master Electrical Engineering</h2>
+                <h5 class="timeline-info">Polytechnic University of Timișoara - Hunedoara Faculty of Engineering</h5>
+                <h4 class="timeline-info">Computer techniques in electrical engineering</h4>
+              </div>
+            </div>
+
+            <div class="container left">
+              <div class="content">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3 class="timeline-info">2014 - 2018</h3>
+                <h2 class="timeline-info">Engineer Degree</h2>
+                <h5 class="timeline-info">Polytechnic University of Timișoara - Hunedoara Faculty of Engineering</h5>
+                <h4 class="timeline-info">Applied Engineering Sciences</h4>
+              </div>
+            </div>
+
+          </div>
+    </section>
+
+    <section id="sec-3">
+      <!--skills-->
+      <div class="skills">
+          <h1 class="centered-title">Skills</h1>
+          <div class="col"><img class="logo" src="images/html.png" alt="html-logo"><p class="desc">I learned about HTML elements, the importance of semantics, how to build forms, how to create tables, how to structure a web page and many more.</p></div>
+          <div class="col"><img class="logo" src="images/css.png" alt="css-logo"><p class="desc">I know how to use selectors, properties, create a layout, grid elements, how to work with media queries and create a responsive page.</p></div>
+          <div class="col"><img class="logo" src="images/javascript.png" alt="javascript-logo"><p class="desc">I am able to create code and use variables, write conditionals, initiate loops, work with arrays, functions, objects, more exactly - make a webpage interactive.</p></div>
+      </div>
+    </section>
+
+    <section id="sec-4">
+        <!--certificates-->   
+        <h1 class="sec-4-title">Certificates</h1>
+            <div class="row">
+              <div class="column">
+                <a href="https://www.credential.net/c3c3b600-6684-4486-893b-51c46ba680c8#gs.5zh994" target="_blank"><img class="cert" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/91386036" alt="HTML-certificate"></a>
+              </div>
+
+              <div class="column">
+                <a href="https://www.credential.net/d3d8c641-aa0c-4a0c-9791-0d1b24d929ac#gs.5zl42k" target="_blank"><img class="cert" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/92420526" alt="CSS-certificate"></a>
+              </div>
+            </div>
+    </section>
+
+    <section id="sec-5">
+      <!--projects + webpages + github profile + download CV button-->
+      <h1 class="sec-5-title">Projects</h1>
+      <div class="projects-row">
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/2024countdown.png" alt="countdown-project">
+            <h2 class="project-title">New Years Eve Countdown</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Andreea-New-Years-Eve-Countdown/" target="_blank">View</a></button>
+          </div>
+        </div>
+
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/404page.png" alt="404-page-project">
+            <h2 class="project-title">404 Webpage</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Codedex-404-page/" target="_blank">View</a></button>
+          </div>
+        </div>
+
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/calculator.png" alt="calculator-project">
+            <h2 class="project-title">Calculator</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Calculator/" target="_blank">View</a></button>
+          </div>
+        </div>
+
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/calendar.png" alt="calendar-project">
+            <h2 class="project-title">Calendar</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Calendar/" target="_blank">View</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-row">      
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/cssportfolio.png" alt="css-portfolio-project">
+            <h2 class="project-title">CSS Portfolio</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Portfolio-for-CSS-course/" target="_blank">View</a></button>
+          </div>
+        </div>
+
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/gallery.png" alt="gallery-project">
+            <h2 class="project-title">Image Gallery</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Gallery/" target="_blank">View</a></button>
+          </div>
+        </div>
+              
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/horoscope.png" alt="horoscope-project">
+            <h2 class="project-title">Horoscope Fortune Teller</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Horoscope/" target="_blank">View</a></button>
+          </div>
+        </div>
+              
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/todolist.png" alt="to-do-list-project">
+            <h2 class="project-title">To Do List</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/ToDoList/" target="_blank">View</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-row">     
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/quiz.png" alt="quiz-project">
+            <h2 class="project-title">Geek Quiz</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Quiz/" target="_blank">View</a></button>
+          </div>
+        </div>
+
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/restaurant-html.png" alt="restaurant-project">
+            <h2 class="project-title">HTML Restaurant</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Restaurant/" target="_blank">View</a></button>
+          </div>
+        </div>
+
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/weatherapp.png" alt="weather-project">
+            <h2 class="project-title">Weather App</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/WeatherApp/" target="_blank">View</a></button>
+          </div>
+        </div>
+
+        <div class="projects-column">
+          <div class="card">
+            <img class="project-img" src="projects/veggieworld.png" alt="veggie-world-project">
+            <h2 class="project-title">Vegan World</h2>
+            <button class="visit-btn"><a class="project-link" href="https://danandreeamaria.github.io/Vegan-world/" target="_blank">View</a></button>
+          </div>
+        </div>
+      </div>              
+    </section>
+
+    <!--top button-->
+
+    <section id="sec-6">
+        <!--footer-->      
+        <footer>
+        <div class="contact-parent">
+
+          <div class="container-f" id="two">
+            <h1 class="contact-txt">Contact me!</h1>
+            <form action="/action_page.php">
+            <div class="rows">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="rows">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </div>
+            </div>
+            <div class="rows">
+              <div class="col-25">
+                <label for="country">Country</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="rows">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="rows">
+              <button class="submit-btn"><a href="mailto:deea_u90@yahoo.com" class="btn-submit">Submit</a></button>
+            </div>
+            </form>
+          </div>
+
+          <div class="map" id="one">            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44444.4858134898!2d22.871938521150735!3d45.875703674149406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474ef2942e4b17ed%3A0x7a9550f58a1eda77!2sDeva!5e0!3m2!1sen!2sro!4v1709636114431!5m2!1sen!2sro" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <h4 class="more">Feel free to visit my GitHub projects</h4>
+        <div class="links">
+          <a href="https://github.com/DanAndreeaMaria" target="_blank"><img class="mini-logo" src="images/github.png" alt="github"></a>
+        </div>
+        <h4 class="more">Made with ♥ by Andreea</h4>
+
+        </footer>
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
