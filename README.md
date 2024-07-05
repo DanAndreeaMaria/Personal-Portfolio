@@ -11,4 +11,5 @@ Here you can find:
 * some of my projects
 * contact form
 * location
+
 The page is fully responsive at resizing.
