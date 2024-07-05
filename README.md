@@ -9,5 +9,6 @@ Here you can find:
 * an 'About me' section
 * my work experience
 * some of my projects
-- contact form
-- location
+* contact form
+* location
+The page is fully responsive at resizing.
