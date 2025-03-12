@@ -15,7 +15,7 @@ This is a personal portfolio website designed to showcase my skills, education, 
 
 ## Technologies used
 
-  **HTML:** Structured the content of the website
-  **CSS:** Styled the website for a visually appealing and responsive layout
-  **JavaScript:** Implemented interactive features, including the sidebar navigation and scroll animations
-  **ScrollReveal:** Added fade-in effects for a better user experience
+  * **HTML:** Structured the content of the website
+  * **CSS:** Styled the website for a visually appealing and responsive layout
+  * **JavaScript:** Implemented interactive features, including the sidebar navigation and scroll animations
+  * **ScrollReveal:** Added fade-in effects for a better user experience
